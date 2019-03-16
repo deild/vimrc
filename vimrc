@@ -4,31 +4,24 @@ set nocompatible
 
 filetype off
 
-" -- Plugin with Vundle
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+" Specify a directory for plugins
+call plug#begin('~/.vim/plugged')
 
-Plugin 'ledger/vim-ledger'
-Plugin 'scrooloose/nerdtree'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'junegunn/goyo.vim'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'airblade/vim-gitgutter'
-" Plugin 'LustyExplorer'
-Plugin 'w0rp/ale'
-" Plugin 'Shougo/deoplete.nvim'
-" Plugin 'roxma/nvim-yarp' " needs for deoplete
-" Plugin 'roxma/vim-hug-neovim-rpc' " needs for deoplete
-Plugin 'ervandew/supertab'
-Plugin 'cespare/vim-toml'
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
+Plug 'ledger/vim-ledger'
+Plug 'scrooloose/nerdtree'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
+Plug 'junegunn/goyo.vim'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'airblade/vim-gitgutter'
+" Plug 'LustyExplorer'
+Plug 'w0rp/ale'
+Plug 'ervandew/supertab'
+Plug 'cespare/vim-toml'
+" Initialize plugin system
+call plug#end()
 
 filetype plugin indent on    " required
 
