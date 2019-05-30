@@ -20,6 +20,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
 Plug 'ervandew/supertab'
 Plug 'cespare/vim-toml'
+Plug 'vim-syntastic/syntastic'
 " Initialize plugin system
 call plug#end()
 
