@@ -21,6 +21,9 @@ Plug 'w0rp/ale'
 Plug 'ervandew/supertab'
 Plug 'cespare/vim-toml'
 Plug 'vim-syntastic/syntastic'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-rake'
 " Initialize plugin system
 call plug#end()
 
